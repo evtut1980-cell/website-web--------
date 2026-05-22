@@ -1,0 +1,426 @@
+﻿0001: <!DOCTYPE html>
+0002: <html lang="ru">
+0003: 
+0004: <head>
+0005:   <meta charset="UTF-8">
+0006:   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+0007:   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+0008:   <title>Мебельная компания</title>
+0009:   <link rel="shortcut icon" href="ima/1.ico">
+0010:   <link rel="preconnect" href="https://fonts.googleapis.com">
+0011:   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+0012:   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+0013:   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+0014:   <link rel="stylesheet" href="css/style.css">
+0015: </head>
+0016: 
+0017: <body>
+0018:   <!------->
+0019: 
+0020:   <div class="wrapper">
+0021:     <header class="header-main">
+0022:       <div class="container">
+0023:         <div class="header__inner">
+0024:           <a class="logo" href="index.html">
+0025:             <img class="logo__img" src="imagis/logo.svg" alt="Логотип мебельной компании СВК">
+0026:           </a>
+0027:           <nav class="menu">
+0028:             <button class="menu__btn">
+0029:                 <span></span>
+0030:                 <span></span>
+0031:                 <span></span>
+0032:             </button>
+0033:             <ul class="menu__list">
+0034:               <li class="menu__list-item">
+0035:                 <a class="menu__list-link" href="catalog.html">Каталог</a>
+0036:               </li>
+0037:               <li class="menu__list-item">
+0038:                 <a class="menu__list-link" href="advantages.html">Партнёрам</a>
+0039:               </li>
+0040:               <li class="menu__list-item">
+0041:                 <a class="menu__list-link" href="contacts.html">Контакты</a>
+0042:               </li>
+0043:               <li class="menu__list-item">
+0044:                 <a class="menu__list-link" href="vacancies.html">Вакансии</a>
+0045:               </li>
+0046:             </ul>
+0047:           </nav>
+0048: 
+0049:         </div>
+0050:         <a class="line" href="#">
+0051:           <img class="line__img" src="imagis/line.svg" alt="Декоративная золотая линия">
+0052:         </a>
+0053:       </div>
+0054:     </header>
+0055: 
+0056: 
+0057:     <!------->
+0058: 
+0059:     <main class="main">
+0060:       
+0061:       
+0062:       <section class="top">
+0063:         <div class="container">
+0064:           <h1 class="title">
+0065:             Корпусная мебель
+0066:           </h1>
+0067:           <h4 class="title-text">
+0068:             Оптимальное соотношение мебели
+0069:             по цене и качеству
+0070:           </h4>
+0071:         </div>
+0072:       </section>
+0073: 
+0074: 
+0075:       <div class="slider">
+0076:         <div class="swiper">
+0077:           <diw class="swiper-wrapper">
+0078:             <div class="swiper-slide" style=" background-image: url(imagis/slide-1.jpg);"></div>
+0079:             <div class="swiper-slide" style=" background-image: url(imagis/slide-2.jpg);"></div>
+0080:             <div class="swiper-slide" style=" background-image: url(imagis/slide-3.jpg);"></div>
+0081:             <div class="swiper-slide" style=" background-image: url(imagis/slide-4.jpg);"></div>
+0082: 
+0083:           </diw>
+0084:           <div class="swiper-pagination"></div>
+0085:         </div>
+0086:       </div>
+0087:       
+0088:       
+0089:       
+0090:       <section class="choose">
+0091:         <div class="container">
+0092:           <h2 class="choose-inner">
+0093:             ПOЧЕМУ ВЫБИРАЮТ НАС <br> 
+0094:           </h2>
+0095:           
+0096:         </div>
+0097:         </section>
+0098:         
+0099:         
+0100:         <section class="us">
+0101:            <div class="container">
+0102:                <nav class="us__menu">
+0103:                   
+0104:                   <ul class="us__menu-list">
+0105:                     <li class="us__menu__item">
+0106:                       <p class="us__menu-link">поддержка складской программы</p>
+0107:                     </li>
+0108:                     <li class="us__menu__item">
+0109:                       <p class="us__menu-link">бесплатные рекламные материалы</p>
+0110:                     </li>
+0111:                     <li class="us__menu__item">
+0112:                       <p class="us__menu-link">высокотехнологичное оборудование </p>
+0113:                   
+0114:                   </ul>
+0115: 
+0116:                   <ul class="us__menu-list">
+0117:                     <li class="us__menu__item">
+0118:                       <p class="us__menu-link">ежемесячный выпуск новинок</p>
+0119:                     </li>
+0120:                     <li class="us__menu__item">
+0121:                       <p class="us__menu-link">минимальный уровень рекламаций</p>
+0122:                     </li>
+0123:                     <li class="us__menu__item">
+0124:                       <p class="us__menu-link">широкая линейка мебели</p>
+0125:                     </li>
+0126:                  
+0127:                   </ul>
+0128: 
+0129:                   <ul class="us__menu-list">
+0130:                     <li class="us__menu__item">
+0131:                       <p class="us__menu-link">индивидуальный подход к партнёрам </p>
+0132:                     </li>
+0133:                     <li class="us__menu__item">
+0134:                       <p class="us__menu-link">фабричное качество и гарантии на мебель</p>
+0135:                     </li>
+0136:                     <li class="us__menu__item">
+0137:                       <p class="us__menu-link">Возможность производства товаров под собственной торговой маркой</p>
+0138:                     </li>
+0139:                     
+0140:                   
+0141:                   </ul>
+0142: 
+0143:                   <ul class="us__menu-list">
+0144:                     <li class="us__menu__item-button">
+0145:                       <p class="us__menu-title">Хотите продавать мебель “СВК” оставьте заявку с сайта или перезвоните нам</p>
+0146:                     </li>
+0147:                     <li class="us__menu__item-button">
+0148:                       <p class="us__menu-title"><a href="tel:+78412233371">тел: +7 (8412) 23-33-71 раб.
+0149:                       </a>
+0150:                       </p>
+0151:                     </li>
+0152:                     <li class="us__menu__button">
+0153:                       <button tape="button" class="us__button"><a href="contacts.html">оформить заказ</a></button>
+0154:                      </li>
+0155:                   </ul>
+0156:                 
+0157:                </nav>
+0158:              
+0159:           </div>
+0160:       </section>
+0161: 
+0162: 
+0163:       <section class="important">
+0164:         <div class="container">
+0165:           <h2 class="section__title-index">
+0166:             КАТАЛОГ МЕБЕЛИ
+0167:           </h2>
+0168:           <p class="section__title-header-index">
+0169:             Мы рады что вы зашли на сайт мебельной компании «СВК» — на официальном сайте, мы предлагаем мебель
+0170:             собственного производства, где представлена корпусная мебель для жизни и работы. Мы готовы удовлетворить
+0171:             запросы самых требовательных покупателей.
+0172:           </p>
+0173:           <ul class="important__list">
+0174: 
+0175: 
+0176:             <li class="important__item">
+0177:               <img class="important__item-img" src="imagis/imp-1.jpg" alt="мебель для гостиной">
+0178:               <h4 class="important__item-text">
+0179:                 <img src="./imagis/ikon-1.svg"> <a class="important__item-text" href="catalog.html">Мебель для гостиной </a>
+0180:               </h4>
+0181:               <img class="important__item-svg" src="imagis/line yellow.svg" alt="Мебель для гостиной"
+0182:                 class="benefits__card-line">
+0183:             </li>
+0184: 
+0185: 
+0186:             <li class="important__item">
+0187:               <img class="important__item-img" src="imagis/imp-2.jpg" alt="мебель для гостиной">
+0188:               <h4 class="important__item-text">
+0189:                 <img src="./imagis/ikon-2.svg"> <a class="important__item-text" href="catalog.html">Мебель для cпальни </a>
+0190:               </h4>
+0191:               <img class="important__item-svg" src="imagis/line yellow.svg" alt="Мебель для гостиной"
+0192:                 class="benefits__card-line">
+0193:             </li>
+0194: 
+0195: 
+0196:             <li class="important__item">
+0197:               <img class="important__item-img" src="imagis/imp-3.jpg" alt="мебель для гостиной">
+0198:               <h4 class="important__item-text">
+0199:                 <img src="./imagis/ikon-3.svg"> <a class="important__item-text" href="catalog.html">Сквозная коллекция</a>
+0200:               </h4>
+0201:               <img class="important__item-svg" src="imagis/line yellow.svg" alt="Мебель для гостиной"
+0202:                 class="benefits__card-line">
+0203:             </li>
+0204: 
+0205:           </ul>
+0206:           <ul class="important__list">
+0207: 
+0208: 
+0209:             <li class="important__item">
+0210:               <img class="important__item-img" src="imagis/imp-4.jpg" alt="мебель для гостиной">
+0211:               <h4 class="important__item-text">
+0212:                 <img src="./imagis/ikon-4.svg"> <a class="important__item-text" href="catalog.html"> Мебель для прихожей</a>
+0213:               </h4>
+0214:               <img class="important__item-svg" src="imagis/line yellow.svg" alt="Мебель для гостиной"
+0215:                 class="benefits__card-line">
+0216:             </li>
+0217: 
+0218: 
+0219:             <li class="important__item">
+0220:               <img class="important__item-img" src="imagis/imp-5.jpg" alt="мебель для гостиной">
+0221:               <h4 class="important__item-text">
+0222:                 <img src="./imagis/ikon-5.svg"> <a class="important__item-text" href="catalog.html">Подростковая мебель</a>
+0223:               </h4>
+0224:               <img class="important__item-svg" src="imagis/line yellow.svg" alt="Мебель для гостиной"
+0225:                 class="benefits__card-line">
+0226:             </li>
+0227: 
+0228: 
+0229:             <li class="important__item">
+0230:               <img class="important__item-img" src="imagis/imp-6.jpg" alt="мебель для гостиной">
+0231:               <h4 class="important__item-text">
+0232:                 <img src="./imagis/ikon-6.svg"> <a class="important__item-text" href="catalog.html">Шкафы</a>
+0233:               </h4>
+0234:               <img class="important__item-svg" src="imagis/line yellow.svg" alt="Мебель для гостиной"
+0235:                 class="benefits__card-line">
+0236:             </li>
+0237: 
+0238:           </ul>
+0239:           <ul class="important__list">
+0240: 
+0241: 
+0242:            
+0243: 
+0244: 
+0245:             <li class="important__item">
+0246:               <img class="important__item-img" src="imagis/imp-8.jpg" alt="мебель для гостиной">
+0247:               <h4 class="important__item-text">
+0248:                 <img src="./imagis/ikon-8.svg"> <a class="important__item-text" href="catalog.html">Стеллажи, полки</a>
+0249:               </h4>
+0250:               <img class="important__item-svg" src="imagis/line yellow.svg" alt="Мебель для гостиной"
+0251:                 class="benefits__card-line">
+0252:             </li>
+0253: 
+0254: 
+0255:             <li class="important__item">
+0256:               <img class="important__item-img" src="imagis/imp-9.jpg" alt="мебель для гостиной">
+0257:               <h4 class="important__item-text">
+0258:                 <img src="./imagis/ikon-9.svg"> <a class="important__item-text" href="catalog.html">Кухонный гарнитур</a>
+0259:               </h4>
+0260:               <img class="important__item-svg" src="imagis/line yellow.svg" alt="Мебель для гостиной"
+0261:                 class="benefits__card-line">
+0262:             </li>
+0263: 
+0264:             <li class="important__item">
+0265:               <img class="important__item-img" src="imagis/imp-7.jpg" alt="мебель для гостиной">
+0266:               <h4 class="important__item-text">
+0267:                 <img src="./imagis/ikon-7.svg"> <a class="important__item-text" href="catalog.html">Комоды</a>
+0268:               </h4>
+0269:               <img class="important__item-svg" src="imagis/line yellow.svg" alt="Мебель для гостиной"
+0270:                 class="benefits__card-line">
+0271:             </li>
+0272: 
+0273: 
+0274:           </ul>
+0275:         </div>
+0276:       </section>
+0277: 
+0278:     </main>
+0279:     <!------->
+0280: 
+0281: 
+0282:     <footer class="footer">
+0283:       <div class="container">
+0284:         <nav class="footer__menu">
+0285: 
+0286: 
+0287:           <ul class="footer__menu-list">
+0288:             <li class="footer__menu-item">
+0289:               <p class="footer__menu-title">
+0290:                <img src="imagis/logo.svg" alt="Логотип мебельной компании СВК подвал" class="footer__menu-title">
+0291:               </p>
+0292:             </li>
+0293: 
+0294:             <li class="footer__menu-item">
+0295:               <p class="footer__menu-title-Sheet">Бeзопасные <br> материалы</p>
+0296:             </li>
+0297:             <li class="footer__menu-item">
+0298: 
+0299:               <p class="footer__menu-link-Sheet">В работе мы используем только лучшие материалы
+0300:                 на рынке по доступным ценам. Безопасность каждого из используемых
+0301:                 материалов подверждается соответствующем сертификатом европейского
+0302:                 стандарта. Мы используем продукцию только проверенных
+0303:                 годами брендов.
+0304:               </p>
+0305:             </li>
+0306:           </ul>
+0307: 
+0308: 
+0309:           <ul class="footer__menu-list">
+0310:             <li class="footer__menu-item">
+0311:               <p class="footer__menu-title"></p>
+0312:             </li>
+0313:             <li class="footer__menu-item">
+0314:               <p class="footer__menu-title">Меню</p>
+0315:             </li>
+0316:             <li class="footer__menu-item">
+0317:               <p class="footer__menu-title">
+0318:                 <img src="imagis/line yellow1..svg" alt="подвал" class="footer__menu-title">
+0319:               </p>
+0320:             </li>
+0321:             <li class="footer__menu-item">
+0322:               <a href="index.html" class="footer__menu-link">Главная</a>
+0323:             </li>
+0324:             <li class="footer__menu-item">
+0325:               <a href="catalog.html" class="footer__menu-link">Каталог</a>
+0326:             </li>
+0327:             <li class="footer__menu-item">
+0328:               <a href="advantages.html" class="footer__menu-link">Партнёрам</a>
+0329:             </li>
+0330:             <li class="footer__menu-item">
+0331:               <a href="contacts.html" class="footer__menu-link">Контакты</a>
+0332:             </li>
+0333:             <li class="footer__menu-item">
+0334:               <a href="vacancies.html" class="footer__menu-link">Вакансии</a>
+0335:             </li>
+0336:           </ul>
+0337: 
+0338: 
+0339:           <ul class="footer__menu-list">
+0340:             <li class="footer__menu-item">
+0341:               <li class="footer__menu-item">
+0342:                 <p class="footer__menu-title"></p>
+0343:               </li>
+0344:               <p class="footer__menu-title">Каталог
+0345: 
+0346:               </p>
+0347:             </li>
+0348:             <li class="footer__menu-item">
+0349:               <p class="footer__menu-title">
+0350:                 <img src="imagis/line yellow1..svg" alt="подвал" class="footer__menu-title">
+0351:               </p>
+0352:             </li>
+0353:             <li class="footer__menu-item">
+0354:               <a href="catalog.html" class="footer__menu-link">Мебель для гостиной</a>
+0355:             </li>
+0356:             <li class="footer__menu-item">
+0357:               <a href="catalog.html" class="footer__menu-link">Мебель для спальни</a>
+0358:             </li>
+0359:             <li class="footer__menu-item">
+0360:               <a href="catalog.html" class="footer__menu-link">Сквозная колекция</a>
+0361:             </li>
+0362:             <li class="footer__menu-item">
+0363:               <a href="catalog.html" class="footer__menu-link">Мебель для прихожей</a>
+0364:             </li>
+0365:             <li class="footer__menu-item">
+0366:               <a href="catalog.html" class="footer__menu-link">Подростковая мебель</a>
+0367:             </li>
+0368:             <li class="footer__menu-item">
+0369:               <a href="catalog.html" class="footer__menu-link">Шкафы</a>
+0370:             </li>
+0371:             <li class="footer__menu-item">
+0372:               <a href="catalog.html" class="footer__menu-link">Комоды</a>
+0373:             </li>
+0374:             <li class="footer__menu-item">
+0375:               <a href="catalog.html" class="footer__menu-link">Стеллажи</a>
+0376:             </li>
+0377:             <li class="footer__menu-item">
+0378:               <a href="catalog.html" class="footer__menu-link">Кухонный гарнитур</a>
+0379:             </li>
+0380:           </ul>
+0381: 
+0382: 
+0383:           <ul class="footer__menu-list">
+0384:             <li class="footer__menu-item">
+0385:               <p class="footer__menu-title"></p>
+0386:             </li>
+0387:             <li class="footer__menu-item">
+0388:               <p class="footer__menu-title">График</p>
+0389:             </li>
+0390:             <li class="footer__menu-item">
+0391:               <p class="footer__menu-title">
+0392:                 <img src="imagis/line yellow1..svg" alt="подвал" class="footer__menu-title">
+0393:               </p>
+0394:             </li>
+0395:             <li class="footer__menu-item">
+0396:               <p class="footer__menu-link-Sheet">c 8.00 до 18.00 <br>
+0397:                 Сб-Вс выходной</p>
+0398:             </li>
+0399:             <li class="footer__menu-item">
+0400:               <p class="footer__menu-link-Sheet">
+0401:                 <a href="tel:+79374020231">тел: +7 (937) 402-02-31 сот.</a><br><a
+0402:                 href="tel:+78412233371">тел: +7 (8412) 23-33-71 раб.</a></p>
+0403:             </li>
+0404:             <li class="footer__menu-item">
+0405:               <p class="footer__menu-link-Sheet"> г. Пенза, п. Мичуринский, <br> ул. Полевая 17 тел.</p>
+0406:             </li>
+0407:             <li class="footer__menu-item">
+0408:               <button tape="button" class="foter__button">
+0409:                 <a href="contacts.html">схема проезда</a></button>
+0410:             </li>
+0411:           </ul>
+0412:         </nav>
+0413: 
+0414:       </div>
+0415:     </footer>
+0416:    </div>
+0417: 
+0418: 
+0419:     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+0420:     <script src="js/main.js"></script>
+0421: 
+0422: 
+0423: 
+0424: </body>
+0425: 
+0426: </html>
