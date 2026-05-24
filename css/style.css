@@ -2043,3 +2043,29 @@ button:focus {
 outline-offset: 2px;
 }
 
+/* Переопределение стандартных стилей кнопок вкладок */
+.tabs__btn-item {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Убираем чёрный цвет при клике (active) и фокусе */
+.tabs__btn-item:active,
+.tabs__btn-item:focus,
+.tabs__btn-item:focus-visible {
+    color: inherit;        /* цвет как у обычной кнопки */
+    background-color: transparent;
+    outline: none;
+}
+
+/* Эффект при наведении курсора */
+.tabs__btn-item:hover {
+    color: #E29C02;        /* золотистый — подставьте свой */
+}
+
+/* Активная (текущая) вкладка */
+.tabs__btn-item--active {
+    color: #E29C02;
+    font-weight: bold;     /* опционально */
+}
+
