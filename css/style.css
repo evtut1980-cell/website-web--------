@@ -2055,7 +2055,7 @@ outline-offset: 2px;
 .tabs__btn-item:focus-visible {
     color: inherit;        /* цвет как у обычной кнопки */
   
-   
+    
 }
 
 /* Эффект при наведении курсора */
