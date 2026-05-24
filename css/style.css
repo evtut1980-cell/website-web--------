@@ -2065,7 +2065,7 @@ outline-offset: 2px;
 
 /* Активная (текущая) вкладка */
 .tabs__btn-item--active {
-    color: #E29C02;
+    color: #C5B39C;
     font-weight: bold;     /* опционально */
 }
 
