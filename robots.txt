@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://evtut1980-cell.github.io/website-web--------/sitemap.xml
