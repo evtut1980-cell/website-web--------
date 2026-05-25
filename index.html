@@ -1,20 +1,27 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Мебельная компания СВК — производство и продажа корпусной мебели для гостиной, спальни, прихожей. Доступные цены, высокое качество.">
+  <link rel="icon" href="imagis/1.ico" type="image/x-icon">
+  <meta name="description" content="Производство и продажа качественной корпусной мебели для гостиной, спальни, 
+  прихожей. Собственное производство, доступные цены. Доставка по Пензе и области.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
   <title>Мебельная компания СВК — корпусная мебель от производителя в Пензе</title>
   <link rel="shortcut icon" href="imagis/1.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+  <!------->
+
   <div class="wrapper">
-    <header class="header">
+    <header class="header-main">
       <div class="container">
         <div class="header__inner">
           <a class="logo" href="index.html">
@@ -22,231 +29,398 @@
           </a>
           <nav class="menu">
             <button class="menu__btn">
-              <span></span>
-              <span></span>
-              <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </button>
             <ul class="menu__list">
-              <li class="menu__list-item"><a class="menu__list-link" href="index.html">Главная</a></li>
-              <li class="menu__list-item"><a class="menu__list-link" href="catalog.html">Каталог</a></li>
-              <li class="menu__list-item"><a class="menu__list-link" href="advantages.html">Партнёрам</a></li>
-              <li class="menu__list-item"><a class="menu__list-link" href="contacts.html">Контакты</a></li>
-              <li class="menu__list-item"><a class="menu__list-link" href="vacancies.html">Вакансии</a></li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="catalog.html">Каталог</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="advantages.html">Партнёрам</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="contacts.html">Контакты</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="vacancies.html">Вакансии</a>
+              </li>
             </ul>
           </nav>
+
         </div>
         <a class="line" href="#">
-          <img loading="lazy" class="line__img" src="imagis/line.svg" alt="Декоративная золотая линия">
+          <img class="line__img" src="imagis/line.svg" alt="Декоративная золотая линия">
         </a>
       </div>
     </header>
 
+
+    <!------->
+
     <main class="main">
-      <section class="slider">
+      
+      
+      <section class="top">
         <div class="container">
-          <div class="slider__inner">
-            <div class="swiper mySwiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background: url(imagis/slide-1.webp) no-repeat center; background-size: cover;">
-                  <div class="slide__inner">
-                    <h1 class="slide__title">корпусная мебель</h1>
-                    <p class="slide__text">Оптимальное соотношение мебели по цене и качеству</p>
-                    <a class="button" href="catalog.html">Перейти в каталог</a>
-                  </div>
-                </div>
-                <div class="swiper-slide" style="background: url(imagis/slide-2.webp) no-repeat center; background-size: cover;">
-                  <div class="slide__inner">
-                    <h2 class="slide__title">корпусная мебель</h2>
-                    <p class="slide__text">Оптимальное соотношение мебели по цене и качеству</p>
-                    <a class="button" href="catalog.html">Перейти в каталог</a>
-                  </div>
-                </div>
-                <div class="swiper-slide" style="background: url(imagis/slide-3.webp) no-repeat center; background-size: cover;">
-                  <div class="slide__inner">
-                    <h2 class="slide__title">корпусная мебель</h2>
-                    <p class="slide__text">Оптимальное соотношение мебели по цене и качеству</p>
-                    <a class="button" href="catalog.html">Перейти в каталог</a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
+          <h1 class="title">
+          корпусная мебель
+          </h1>
+          <h4 class="title-text">
+            Оптимальное соотношение мебели
+            по цене и качеству
+          </h4>
         </div>
       </section>
 
-      <section class="why-lease">
+
+      <div class="slider">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" style=" background-image: url(imagis/slide-1.webp);"></div>
+            <div class="swiper-slide" style=" background-image: url(imagis/slide-2.webp);"></div>
+            <div class="swiper-slide" style=" background-image: url(imagis/slide-3.webp);"></div>
+            <div class="swiper-slide" style=" background-image: url(imagis/slide-4.webp);"></div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      
+      
+      
+      <section class="choose">
         <div class="container">
-          <h2 class="section__title-index">ПОЧЕМУ ВЫБИРАЮТ НАС</h2>
-          <ul class="why-lease__list">
-            <li class="why-lease__item">
-              <img loading="lazy" class="why-lease__item-img" src="imagis/icon-1.svg" alt="Поддержка складской программы">
-              <h3 class="why-lease__item-title">поддержка складской программы</h3>
+          <h2 class="choose-inner">
+            ПОЧЕМУ ВЫБИРАЮТ НАС <br> 
+          </h2>
+          
+        </div>
+        </section>
+        
+        
+        <section class="us">
+           <div class="container">
+               <nav class="us__menu">
+                  
+                  <ul class="us__menu-list">
+                    <li class="us__menu__item">
+                      <p class="us__menu-link">поддержка складской программы</p>
+                    </li>
+                    <li class="us__menu__item">
+                      <p class="us__menu-link">бесплатные рекламные материалы</p>
+                    </li>
+                    <li class="us__menu__item">
+                      <p class="us__menu-link">высокотехнологичное оборудование </p>
+                  
+                  </ul>
+
+                  <ul class="us__menu-list">
+                    <li class="us__menu__item">
+                      <p class="us__menu-link">ежемесячный выпуск новинок</p>
+                    </li>
+                    <li class="us__menu__item">
+                      <p class="us__menu-link">минимальный уровень рекламаций</p>
+                    </li>
+                    <li class="us__menu__item">
+                      <p class="us__menu-link">широкая линейка мебели</p>
+                    </li>
+                 
+                  </ul>
+
+                  <ul class="us__menu-list">
+                    <li class="us__menu__item">
+                      <p class="us__menu-link">индивидуальный подход к партнёрам </p>
+                    </li>
+                    <li class="us__menu__item">
+                      <p class="us__menu-link">фабричное качество и гарантии на мебель</p>
+                    </li>
+                    <li class="us__menu__item">
+                      <p class="us__menu-link">Возможность производства товаров под собственной торговой маркой</p>
+                    </li>
+                    
+                  
+                  </ul>
+
+                  <ul class="us__menu-list">
+                    <li class="us__menu__item-button">
+                      <p class="us__menu-title">Хотите продавать мебель “СВК” оставьте заявку с сайта или перезвоните нам</p>
+                    </li>
+                    <li class="us__menu__item-button">
+                      <p class="us__menu-title"><a href="tel:+78412233371">тел: +7 (8412) 23-33-71 раб.
+                      </a>
+                      </p>
+                    </li>
+                    <li class="us__menu__button">
+                      <button type="button" class="us__button"><a href="contacts.html">оформить заказ</a></button>
+                     </li>
+                  </ul>
+                
+               </nav>
+             
+          </div>
+      </section>
+
+
+      <section class="important">
+        <div class="container">
+          <h2 class="section__title-index">
+            КАТАЛОГ МЕБЕЛИ
+          </h2>
+          <p class="section__title-header-index">
+            Мы рады что вы зашли на сайт мебельной компании «СВК» — на официальном сайте, мы предлагаем мебель
+            собственного производства, где представлена корпусная мебель для жизни и работы. Мы готовы удовлетворить
+            запросы самых требовательных покупателей.
+          </p>
+          <ul class="important__list">
+
+
+            <li class="important__item">
+              <img class="important__item-img" src="imagis/imp-1.webp" alt="мебель для гостиной, гостинные гарнитуры">
+              <h4 class="important__item-text">
+                <img src="./imagis/ikon-1.svg" alt="Мебель для гостиной"> <a class="important__item-text" href="catalog.html">Мебель для гостиной </a>
+              </h4>
+              <img class="important__item-svg" src="imagis/line yellow.svg" alt="Золотая жлтая линия"
+                class="benefits__card-line">
             </li>
-            <li class="why-lease__item">
-              <img loading="lazy" class="why-lease__item-img" src="imagis/icon-2.svg" alt="Бесплатные рекламные материалы">
-              <h3 class="why-lease__item-title">бесплатные рекламные материалы</h3>
+
+
+            <li class="important__item">
+              <img class="important__item-img" src="imagis/imp-2.webp" alt="мебель для гостиной, спальни, кровати, комоды, шкафы">
+              <h4 class="important__item-text">
+                <img src="./imagis/ikon-2.svg" alt="Мебель для спальни"> <a class="important__item-text" href="catalog.html">Мебель для спальни </a>
+              </h4>
+              <img class="important__item-svg" src="imagis/line yellow.svg" alt="Золотая жлтая линия"
+                class="benefits__card-line">
             </li>
-            <li class="why-lease__item">
-              <img loading="lazy" class="why-lease__item-img" src="imagis/icon-3.svg" alt="Высокотехнологичное оборудование">
-              <h3 class="why-lease__item-title">высокотехнологичное оборудование</h3>
+
+
+            <li class="important__item">
+              <img class="important__item-img" src="imagis/imp-3.webp" alt="мебель для гостиной, сквозная коллекция, шкафы, комоды, стеллажи, полки">
+              <h4 class="important__item-text">
+                <img src="./imagis/ikon-3.svg" alt="Сквозная коллекция"> <a class="important__item-text" href="catalog.html">Сквозная коллекция</a>
+              </h4>
+              <img class="important__item-svg" src="imagis/line yellow.svg" alt="Золотая жлтая линия"
+                class="benefits__card-line">
             </li>
-            <li class="why-lease__item">
-              <img loading="lazy" class="why-lease__item-img" src="imagis/icon-4.svg" alt="Ежемесячный выпуск новинок">
-              <h3 class="why-lease__item-title">ежемесячный выпуск новинок</h3>
+
+          </ul>
+          <ul class="important__list">
+
+
+            <li class="important__item">
+              <img class="important__item-img" src="imagis/imp-4.webp" alt="мебель для гостиной, прихожая, шкафы,">
+              <h4 class="important__item-text">
+                <img src="./imagis/ikon-4.svg" alt="Мебель для прихожей"> <a class="important__item-text" href="catalog.html"> Мебель для прихожей</a>
+              </h4>
+              <img class="important__item-svg" src="imagis/line yellow.svg" alt="Золотая жлтая линия"
+                class="benefits__card-line">
             </li>
-            <li class="why-lease__item">
-              <img loading="lazy" class="why-lease__item-img" src="imagis/icon-5.svg" alt="Минимальный уровень рекламаций">
-              <h3 class="why-lease__item-title">минимальный уровень рекламаций</h3>
+
+
+            <li class="important__item">
+              <img class="important__item-img" src="imagis/imp-5.webp" alt="мебель для гостиной, подростковая мебель">
+              <h4 class="important__item-text">
+                <img src="./imagis/ikon-5.svg" alt="Подростковая мебель"> <a class="important__item-text" href="catalog.html">Подростковая мебель</a>
+              </h4>
+              <img class="important__item-svg" src="imagis/line yellow.svg" alt="Золотая жлтая линия"
+                class="benefits__card-line">
             </li>
-            <li class="why-lease__item">
-              <img loading="lazy" class="why-lease__item-img" src="imagis/icon-6.svg" alt="Широкая линейка мебели">
-              <h3 class="why-lease__item-title">широкая линейка мебели</h3>
+
+
+            <li class="important__item">
+              <img class="important__item-img" src="imagis/imp-6.webp" alt="мебель для гостиной, шкаф-купе, шкафы для одежды">
+              <h4 class="important__item-text">
+                <img src="./imagis/ikon-6.svg" alt="Шкафы"> <a class="important__item-text" href="catalog.html">Шкафы</a>
+              </h4>
+              <img class="important__item-svg" src="imagis/line yellow.svg" alt="Золотая жлтая линия"
+                class="benefits__card-line">
             </li>
-            <li class="why-lease__item">
-              <img loading="lazy" class="why-lease__item-img" src="imagis/icon-7.svg" alt="Индивидуальный подход к партнёрам">
-              <h3 class="why-lease__item-title">индивидуальный подход к партнёрам</h3>
+
+          </ul>
+          <ul class="important__list">
+
+
+           
+
+
+            <li class="important__item">
+              <img class="important__item-img" src="imagis/imp-8.webp" alt="мебель для гостиной, стеллажи, полки">
+              <h4 class="important__item-text">
+                <img src="./imagis/ikon-8.svg"> <a class="important__item-text" href="catalog.html">Стеллажи, полки</a>
+              </h4>
+              <img class="important__item-svg" src="imagis/line yellow.svg" alt="Золотая жёлтая линия"
+                class="benefits__card-line">
             </li>
-            <li class="why-lease__item">
-              <img loading="lazy" class="why-lease__item-img" src="imagis/icon-8.svg" alt="Фабричное качество и гарантии на мебель">
-              <h3 class="why-lease__item-title">фабричное качество и гарантии на мебель</h3>
+
+
+            <li class="important__item">
+              <img class="important__item-img" src="imagis/imp-9.webp" alt="мебель для гостиной, кухонный гарнитур">
+              <h4 class="important__item-text">
+                <img src="./imagis/ikon-9.svg"> <a class="important__item-text" href="catalog.html">Кухонный гарнитур</a>
+              </h4>
+              <img class="important__item-svg" src="imagis/line yellow.svg" alt="Золотая жлтая линия"
+                class="benefits__card-line">
             </li>
-            <li class="why-lease__item">
-              <img loading="lazy" class="why-lease__item-img" src="imagis/icon-9.svg" alt="Возможность производства товаров под собственной торговой маркой">
-              <h3 class="why-lease__item-title">Возможность производства товаров под собственной торговой маркой</h3>
+
+            <li class="important__item">
+              <img class="important__item-img" src="imagis/imp-7.webp" alt="мебель для гостиной, комоды">
+              <h4 class="important__item-text">
+                <img src="./imagis/ikon-7.svg"> <a class="important__item-text" href="catalog.html">Комоды</a>
+              </h4>
+              <img class="important__item-svg" src="imagis/line yellow.svg" alt="Золотая жлтая линия"
+                class="benefits__card-line">
             </li>
+
+
           </ul>
         </div>
       </section>
 
-      <section class="how-does">
-        <div class="container">
-          <div class="how-does__inner">
-            <div class="how-does__item">
-              <h2 class="section__title-index">Хотите продавать мебель “СВК” оставьте заявку с сайта или перезвоните нам</h2>
-              <a class="how-does__btn" href="contacts.html">оформить заказ</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="catalog-index">
-        <div class="container">
-          <h2 class="section__title-index">КАТАЛОГ МЕБЕЛИ</h2>
-          <p class="catalog-index__text">Мы рады что вы зашли на сайт мебельной компании «СВК» — на официальном сайте, мы предлагаем мебель собственного производства, где представлена корпусная мебель для жизни и работы. Мы готовы удовлетворить запросы самых требовательных покупателей.</p>
-          <div class="catalog-index__items">
-            <div class="catalog-index__item">
-              <a href="1.1_living_room_Largo%202.0.html">
-                <img loading="lazy" src="imagis/catalog-1.webp" alt="Мебель для гостиной">
-                <h3 class="catalog-index__item-title">Мебель для гостиной</h3>
-              </a>
-            </div>
-            <div class="catalog-index__item">
-              <a href="catalog.html">
-                <img loading="lazy" src="imagis/catalog-2.webp" alt="Мебель для спальни">
-                <h3 class="catalog-index__item-title">Мебель для спальни</h3>
-              </a>
-            </div>
-            <div class="catalog-index__item">
-              <a href="catalog.html">
-                <img loading="lazy" src="imagis/catalog-3.webp" alt="Сквозная коллекция">
-                <h3 class="catalog-index__item-title">Сквозная коллекция</h3>
-              </a>
-            </div>
-            <div class="catalog-index__item">
-              <a href="catalog.html">
-                <img loading="lazy" src="imagis/catalog-4.webp" alt="Мебель для прихожей">
-                <h3 class="catalog-index__item-title">Мебель для прихожей</h3>
-              </a>
-            </div>
-            <div class="catalog-index__item">
-              <a href="catalog.html">
-                <img loading="lazy" src="imagis/catalog-5.webp" alt="Подростковая мебель">
-                <h3 class="catalog-index__item-title">Подростковая мебель</h3>
-              </a>
-            </div>
-            <div class="catalog-index__item">
-              <a href="catalog.html">
-                <img loading="lazy" src="imagis/catalog-6.webp" alt="Шкафы">
-                <h3 class="catalog-index__item-title">Шкафы</h3>
-              </a>
-            </div>
-            <div class="catalog-index__item">
-              <a href="catalog.html">
-                <img loading="lazy" src="imagis/catalog-7.webp" alt="Комоды">
-                <h3 class="catalog-index__item-title">Комоды</h3>
-              </a>
-            </div>
-            <div class="catalog-index__item">
-              <a href="catalog.html">
-                <img loading="lazy" src="imagis/catalog-8.webp" alt="Стеллажи">
-                <h3 class="catalog-index__item-title">Стеллажи</h3>
-              </a>
-            </div>
-            <div class="catalog-index__item">
-              <a href="catalog.html">
-                <img loading="lazy" src="imagis/catalog-9.webp" alt="Кухонный гарнитур">
-                <h3 class="catalog-index__item-title">Кухонный гарнитур</h3>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
     </main>
+    <!------->
+
 
     <footer class="footer">
       <div class="container">
         <nav class="footer__menu">
+
+
           <ul class="footer__menu-list">
             <li class="footer__menu-item">
-              <img loading="lazy" src="imagis/logo.svg" alt="Логотип мебельной компании СВК подвал" class="footer__menu-title">
+              <p class="footer__menu-title">
+               <img src="imagis/logo.svg" alt="Логотип мебельной компании СВК подвал" class="footer__menu-title">
+              </p>
             </li>
+
             <li class="footer__menu-item">
               <p class="footer__menu-title-Sheet">Безопасные <br> материалы</p>
             </li>
             <li class="footer__menu-item">
-              <p class="footer__menu-link-Sheet">В работе мы используем только лучшие материалы на рынке по доступным ценам. Безопасность каждого из используемых материалов подтверждается соответствующем сертификатом европейского стандарта. Мы используем продукцию только проверенных годами брендов.</p>
+
+              <p class="footer__menu-link-Sheet">В работе мы используем только лучшие материалы
+                на рынке по доступным ценам. Безопасность каждого из используемых
+                материалов подтверждается соответствующим сертификатом европейского
+                стандарта. Мы используем продукцию только проверенных
+                годами брендов.
+              </p>
             </li>
           </ul>
+
+
           <ul class="footer__menu-list">
-            <li class="footer__menu-item"><p class="footer__menu-title"></p></li>
-            <li class="footer__menu-item"><p class="footer__menu-title">Меню</p></li>
-            <li class="footer__menu-item"><img loading="lazy" src="imagis/line%20yellow1.svg" alt="Декоративная сине-жёлтая линия" class="footer__menu-title"></li>
-            <li class="footer__menu-item"><a href="index.html" class="footer__menu-link">Главная</a></li>
-            <li class="footer__menu-item"><a href="catalog.html" class="footer__menu-link">Каталог</a></li>
-            <li class="footer__menu-item"><a href="advantages.html" class="footer__menu-link">Партнёрам</a></li>
-            <li class="footer__menu-item"><a href="contacts.html" class="footer__menu-link">Контакты</a></li>
-            <li class="footer__menu-item"><a href="vacancies.html" class="footer__menu-link">Вакансии</a></li>
+            <li class="footer__menu-item">
+              <p class="footer__menu-title"></p>
+            </li>
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">Меню</p>
+            </li>
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">
+                <img src="imagis/line yellow1.svg" alt="Декоративная сине-жёлтая линия" class="footer__menu-title">
+              </p>
+            </li>
+            <li class="footer__menu-item">
+              <a href="index.html" class="footer__menu-link">Главная</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="catalog.html" class="footer__menu-link">Каталог</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="advantages.html" class="footer__menu-link">Партнёрам</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="contacts.html" class="footer__menu-link">Контакты</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="vacancies.html" class="footer__menu-link">Вакансии</a>
+            </li>
           </ul>
+
+
           <ul class="footer__menu-list">
-            <li class="footer__menu-item"><p class="footer__menu-title"></p></li>
-            <li class="footer__menu-item"><p class="footer__menu-title">Каталог</p></li>
-            <li class="footer__menu-item"><img loading="lazy" src="imagis/line%20yellow1.svg" alt="Декоративная сине-жёлтая линия" class="footer__menu-title"></li>
-            <li class="footer__menu-item"><a href="catalog.html" class="footer__menu-link">Мебель для гостиной</a></li>
-            <li class="footer__menu-item"><a href="catalog.html" class="footer__menu-link">Мебель для спальни</a></li>
-            <li class="footer__menu-item"><a href="catalog.html" class="footer__menu-link">Сквозная коллекция</a></li>
-            <li class="footer__menu-item"><a href="catalog.html" class="footer__menu-link">Мебель для прихожей</a></li>
-            <li class="footer__menu-item"><a href="catalog.html" class="footer__menu-link">Подростковая мебель</a></li>
-            <li class="footer__menu-item"><a href="catalog.html" class="footer__menu-link">Шкафы</a></li>
-            <li class="footer__menu-item"><a href="catalog.html" class="footer__menu-link">Комоды</a></li>
-            <li class="footer__menu-item"><a href="catalog.html" class="footer__menu-link">Стеллажи</a></li>
-            <li class="footer__menu-item"><a href="catalog.html" class="footer__menu-link">Кухонный гарнитур</a></li>
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">Каталог</p>
+            </li>
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">
+                <img src="imagis/line yellow1.svg" alt="Декоративная сине-жёлтая линия" class="footer__menu-title">
+              </p>
+            </li>
+            <li class="footer__menu-item">
+              <a href="catalog.html" class="footer__menu-link">Мебель для гостиной</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="catalog.html" class="footer__menu-link">Мебель для спальни</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="catalog.html" class="footer__menu-link">Сквозная коллекция</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="catalog.html" class="footer__menu-link">Мебель для прихожей</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="catalog.html" class="footer__menu-link">Подростковая мебель</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="catalog.html" class="footer__menu-link">Шкафы</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="catalog.html" class="footer__menu-link">Комоды</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="catalog.html" class="footer__menu-link">Стеллажи</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="catalog.html" class="footer__menu-link">Кухонный гарнитур</a>
+            </li>
           </ul>
+
+
           <ul class="footer__menu-list">
-            <li class="footer__menu-item"><p class="footer__menu-title"></p></li>
-            <li class="footer__menu-item"><p class="footer__menu-title">График</p></li>
-            <li class="footer__menu-item"><img loading="lazy" src="imagis/line%20yellow1.svg" alt="Декоративная сине-жёлтая линия" class="footer__menu-title"></li>
-            <li class="footer__menu-item"><p class="footer__menu-link-Sheet">с 8.00 до 18.00<br>Сб-Вс выходной</p></li>
-            <li class="footer__menu-item"><p class="footer__menu-link-Sheet">тел: + 7 937 402-02-31 сот.<br>тел: +7 (8412) 23-33-71 раб.</p></li>
-            <li class="footer__menu-item"><p class="footer__menu-link-Sheet">г. Пенза, п. Мичуринский,<br>ул. Полевая 17 тел.</p></li>
-            <li class="footer__menu-item"><button type="button" class="footer1__button"><a href="contacts.html">схема проезда</a></button></li>
+            <li class="footer__menu-item">
+              <p class="footer__menu-title"></p>
+            </li>
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">График</p>
+            </li>
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">
+                <img src="imagis/line yellow1.svg" alt="Декоративная сине-жёлтая линия" class="footer__menu-title">
+              </p>
+            </li>
+            <li class="footer__menu-item">
+              <p class="footer__menu-link-Sheet">с 8.00 до 18.00 <br>
+                Сб-Вс выходной</p>
+            </li>
+            <li class="footer__menu-item">
+              <p class="footer__menu-link-Sheet">
+                <a href="tel:+79374020231">тел: +7 (937) 402-02-31 сот.</a><br><a
+                href="tel:+78412233371">тел: +7 (8412) 23-33-71 раб.</a></p>
+            </li>
+            <li class="footer__menu-item">
+              <p class="footer__menu-link-Sheet"> г. Пенза, п. Мичуринский, <br> ул. Полевая 17 тел.</p>
+            </li>
+            <li class="footer__menu-item">
+              <button type="button" class="footer1__button">
+                <a href="contacts.html">схема проезда</a></button>
+            </li>
           </ul>
         </nav>
+
       </div>
     </footer>
-  </div>
+   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-  <script src="js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+
 </body>
+
 </html>
+
+
