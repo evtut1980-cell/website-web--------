@@ -1864,3 +1864,11 @@ img {
   max-width: 100%;
   box-sizing: border-box;
 }
+
+/* 2. Перенос длинных слов и разрыв строк */
+p, h1, h2, h3, h4, .card__text, .blog__item-title-text, .facade-text, 
+.us__menu-link, .now-does__menu-link, .footer__menu-link-Sheet {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
