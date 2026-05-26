@@ -1865,3 +1865,172 @@ img {
     font-size: 16px;
   }
 }
+
+/* ========== ГЛОБАЛЬНЫЕ ПРАВИЛА ДЛЯ МОБИЛЬНЫХ ========== */
+
+/* 1. Запрещаем выход контента за границы */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden; /* убираем горизонтальную прокрутку */
+}
+
+/* 2. Перенос длинных слов и разрыв строк */
+p, h1, h2, h3, h4, .card__text, .blog__item-title-text, .facade-text, 
+.us__menu-link, .now-does__menu-link, .footer__menu-link-Sheet {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* 3. Изображения всегда вписываются в экран */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 4. Контейнеры на маленьких экранах */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+/* 5. Карточки товаров в один столбец и без вылезания */
+@media (max-width: 680px) {
+  .set-item {
+    grid-template-columns: 1fr; /* одна колонка */
+    gap: 20px;
+    padding: 15px;
+  }
+  .card, .set-card {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .card__img, .set-card__img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* 6. Блок характеристик товара – текст не убегает */
+@media (max-width: 650px) {
+  .blog__items {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog__item-img {
+    width: 100%;
+    height: auto;
+  }
+  .dlod-text {
+    padding: 0 10px;
+  }
+  .blog__item-title-text {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
+
+/* 7. Галерея цветов – не более 3 колонок на узких экранах */
+@media (max-width: 540px) {
+  .color-menu__list {
+    grid-template-columns: repeat(3, minmax(80px, 1fr)) !important;
+    gap: 10px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .color__item-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* 8. Форма обратной связи – поля на всю ширину */
+@media (max-width: 600px) {
+  .form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .form__input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .form__textarea {
+    width: 100%;
+  }
+  .form__btn {
+    width: 100%;
+    padding: 12px;
+  }
+}
+
+/* 9. Подвал – колонки в столбик */
+@media (max-width: 500px) {
+  .footer__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer__menu-list {
+    max-width: 100%;
+  }
+  .footer1__button {
+    width: auto;
+    display: inline-block;
+  }
+}
+
+/* 10. Общие отступы и шрифты для маленьких телефонов */
+@media (max-width: 480px) {
+  .section-title, .section__title-index {
+    font-size: 24px;
+    margin-top: 100px;
+  }
+  .section-title-header {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  .title {
+    font-size: 40px;
+    padding: 0 10px;
+  }
+  .title-text {
+    font-size: 16px;
+  }
+  .choose-inner {
+    font-size: 18px;
+    padding: 0 15px;
+  }
+  .map-map {
+    height: 250px;
+  }
+  .map-contacts__line {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+  .map-contacts__telephone {
+    font-size: 16px;
+  }
+}
+
+/* 11. Кнопки удобного размера для пальцев */
+@media (max-width: 768px) {
+  button, .button, .form__btn, .blog-button__text, .footer1__button, 
+  .us__button, .how-does__button-title, .tabs__btn-item {
+    min-height: 44px;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+/* 12. Убираем горизонтальный скролл, если появляется */
+.wrapper {
+  overflow-x: hidden;
+}
