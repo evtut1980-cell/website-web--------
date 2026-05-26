@@ -1860,4 +1860,7 @@ img {
   .card__title {
     font-size: 16px;
   }
+}* {
+  max-width: 100%;
+  box-sizing: border-box;
 }
