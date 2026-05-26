@@ -1806,3 +1806,9 @@ button:focus {
   color: #C5B39C;
   font-weight: bold;
 }
+
+/*--------------------------------*/
+img {
+  max-width: 100%;
+  height: auto;
+}
