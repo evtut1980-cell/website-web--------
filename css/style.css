@@ -2060,21 +2060,3 @@ img {
     font-size: 14px;
   }
 }
-/* Принудительный перенос длинных слов в вакансиях */
-.how__item-title {
-  word-break: break-word;
-  overflow-wrap: break-word;
-  white-space: normal;
-}
-
-/* На очень маленьких экранах уменьшаем шрифт, чтобы слово не разрывалось */
-@media (max-width: 480px) {
-  .how__item-title {
-    font-size: 15px; /* или 14px */
-  }
-}
-
-/* Для всех контейнеров – никакой горизонтальной прокрутки */
-body, .wrapper, .container {
-  overflow-x: hidden;
-}
