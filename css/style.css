@@ -1843,5 +1843,32 @@ img {
   z-index: -1;
 }
 
+/* 4. Корректировка галереи цветов на очень маленьких экранах */
+@media (max-width: 480px) {
+  .color-menu__list {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 10px;
+  }
+}
 
+/* 5. Чуть увеличиваем текст в карточках товаров на мобильных */
+@media (max-width: 480px) {
+  .blog__item-title-text {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .card__title {
+    font-size: 16px;
+  }
+}* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
 
+/* 2. Перенос длинных слов и разрыв строк */
+p, h1, h2, h3, h4, .card__text, .blog__item-title-text, .facade-text, 
+.us__menu-link, .now-does__menu-link, .footer__menu-link-Sheet {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
