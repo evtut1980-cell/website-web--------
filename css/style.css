@@ -2034,3 +2034,29 @@ img {
 .wrapper {
   overflow-x: hidden;
 }
+
+/* ========== ПЕРЕНОС ДЛИННЫХ СЛОВ НА МОБИЛЬНЫХ ========== */
+
+/* Для всех заголовков вакансий и подобных элементов */
+.how__item-title,
+.set-card__title,
+.card__title,
+.blog__item-title,
+.important__item-text,
+.us__menu-link,
+.now-does__menu-title {
+  word-wrap: break-word;        /* старый стандарт */
+  overflow-wrap: break-word;    /* современный стандарт */
+  word-break: break-word;       /* для кросс-браузерности */
+  white-space: normal;          /* запрещаем принудительное непереносимое пространство */
+}
+
+/* Дополнительно для очень маленьких экранов уменьшаем шрифт */
+@media (max-width: 480px) {
+  .how__item-title {
+    font-size: 16px;            /* или 15px, если нужно */
+  }
+  .set-card__title {
+    font-size: 14px;
+  }
+}
