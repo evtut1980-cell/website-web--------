@@ -1807,8 +1807,23 @@ button:focus {
   font-weight: bold;
 }
 
-/*--------------------------------*/
+/* Дополнительные улучшения адаптивности */
 img {
   max-width: 100%;
   height: auto;
+}
+/* Увеличение кликабельных элементов на тач-экранах */
+@media (max-width: 768px) {
+  button,
+  .button,
+  .form__btn,
+  .blog-button__text,
+  .footer1__button,
+  .us__button,
+  .how-does__button-title {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
