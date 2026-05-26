@@ -1827,3 +1827,7 @@ img {
     justify-content: center;
   }
 }
+/* Затемнение фона при открытом бургер-меню */
+.menu__list--active {
+  background-color: rgba(0, 0, 0, 0.9); /* полупрозрачный тёмный фон */
+}
