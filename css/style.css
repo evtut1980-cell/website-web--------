@@ -1831,3 +1831,10 @@ img {
 .menu__list--active {
   background-color: rgba(0, 0, 0, 0.9); /* полупрозрачный тёмный фон */
 }
+
+/* Адаптация для меню: чтобы ссылки были белыми и крупными */
+.menu__list--active .menu__list-link {
+  font-size: 18px;
+  padding: 12px 0;
+  display: block;
+}
