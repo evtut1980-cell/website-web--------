@@ -1783,11 +1783,7 @@ html {
   scroll-behavior: smooth;
 }
 
-a:focus,
-button:focus {
-  outline: 2px solid #E29C02;
-  outline-offset: 2px;
-}
+
 
 /* Переопределение стандартных стилей кнопок вкладок */
 .tabs__btn-item {
