@@ -1843,13 +1843,7 @@ img {
   z-index: -1;
 }
 
-/* 4. Корректировка галереи цветов на очень маленьких экранах */
-@media (max-width: 480px) {
-  .color-menu__list {
-    grid-template-columns: repeat(3, 1fr) !important;
-    gap: 10px;
-  }
-}
+
 
 /* 5. Чуть увеличиваем текст в карточках товаров на мобильных */
 @media (max-width: 480px) {
